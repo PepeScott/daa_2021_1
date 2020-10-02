@@ -21,13 +21,13 @@ def main():
     datoMayor17=0
     estadoM17=0
     mesM17=0
-    datoMenor17=0
+    datoMenor17=100
     estadoMe17=0
     mesMe17=0
     datoMayor18=0
     estadoM18=0
     mesM18=0
-    datoMenor18=0
+    datoMenor18=100
     estadoMe18=0
     mesMe18=0
     for anio in range(2017,2019,1):
@@ -39,7 +39,7 @@ def main():
                         datoMayor17=dato
                         estadoM17=r
                         mesM17=c
-                    if dato < datoMayor17:
+                    if dato < datoMenor17:
                         datoMenor17=dato
                         estadoMe17=r
                         mesMe17=c
@@ -48,7 +48,7 @@ def main():
                         datoMayor18=dato
                         estadoM18=r
                         mesM18=c
-                    if dato < datoMayor18:
+                    if dato < datoMenor18:
                         datoMenor18=dato
                         estadoMe18=r
                         mesMe18=c
