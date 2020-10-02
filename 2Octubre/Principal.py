@@ -14,7 +14,7 @@ def main():
     m=int(input("Selecciones mes(1-12): "))
     print("En el año",a,"mes de",a3.get_item(a-2017,0,m),"en el estado",a3.get_item(a-2017,e,0),"tuvo un promedio",a3.get_item(a-2017,e,m))
     suma=0.0
-    for i in range(2017,2019,1):
-        suma+=a3.get_item(i-2017,e,m)
+    for c in range(1,13,1):
+        suma+=a3.get_item(a-2017,e,c)
     print("El promedio anual es de: ",suma/34)
     print("La suma es de: ", suma)
